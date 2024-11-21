@@ -20,7 +20,7 @@
 
 # 1.Introduction
 
-## Brain tumors pose significant challenges in medical diagnosis and treatment. Automated segmentation of brain tumors from MRI scans can greatly assist medical professionals by providing consistent and objective assessments. This project leverages the DUCKNet architecture, a variant of U-Net with dense connectivity, to perform semantic segmentation on MRI images from the BraTS2020 dataset.
+ Brain tumors pose significant challenges in medical diagnosis and treatment. Automated segmentation of brain tumors from MRI scans can greatly assist medical professionals by providing consistent and objective assessments. This project leverages the DUCKNet architecture, a variant of U-Net with dense connectivity, to perform semantic segmentation on MRI images from the BraTS2020 dataset.
 
 ### Dataset
 
