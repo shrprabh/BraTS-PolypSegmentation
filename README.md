@@ -104,6 +104,16 @@ The DUCKNet architecture is a convolutional neural network designed for image se
 ## Results and Comparison
 Present the results of your trained model on the validation set and compare it with other segmentation models if available.
 ![image](https://github.com/user-attachments/assets/4f5dac86-1662-4044-97e6-75977042f68d)
+
+This image illustrates a medical image segmentation task using a deep learning model. It comprises three sections:
+
+- Input Image: The original grayscale MRI scan of a brain slice serves as the input to the segmentation model.
+- Ground Truth Mask: The manually annotated mask highlights the region of interest, such as a tumor or lesion.
+- Predicted Mask: The deep learning model’s output (e.g., DUCKNet) indicates the segmented region.
+
+The image compares the model’s prediction with the ground truth, demonstrating its accuracy.
+![image](https://github.com/user-attachments/assets/79522e50-8d93-4d0a-a483-5f4f3cc02a8f)
+
 This image presents three performance metrics during deep learning model training:
 
 - **Training and Validation Accuracy Left):(** The graph tracks the model’s accuracy on training and validation datasets. It increases steadily during training, indicating effective learning, and improves consistently, suggesting good generalization.
@@ -113,16 +123,6 @@ This image presents three performance metrics during deep learning model trainin
 - **Training and Validation Dice Coefficient(Right):** The graph measures the overlap between predicted and ground truth segmentation. It increases over epochs, signifying improved segmentation accuracy. The close alignment of training and validation curves suggests good generalization.
 
 Overall, these graphs demonstrate the model’s improvement during training, with consistent performance on both datasets.
-
-![image](https://github.com/user-attachments/assets/79522e50-8d93-4d0a-a483-5f4f3cc02a8f)
-This image illustrates a medical image segmentation task using a deep learning model. It comprises three sections:
-
-- Input Image: The original grayscale MRI scan of a brain slice serves as the input to the segmentation model.
-- Ground Truth Mask: The manually annotated mask highlights the region of interest, such as a tumor or lesion.
-- Predicted Mask: The deep learning model’s output (e.g., DUCKNet) indicates the segmented region.
-
-The image compares the model’s prediction with the ground truth, demonstrating its accuracy.
-
 Here’s a table comparing the four models across key performance metrics:
 
 | Metric                     | **Model 1: 3D MRI Brain Tumor Segmentation** | **Model 2: U-Net** | **Model 3: U-Net + CNN (BRATS)** | **Model 4: DuckNet (U-Net + DenseNet)** |
