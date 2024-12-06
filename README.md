@@ -67,7 +67,8 @@ Brain tumors pose significant challenges in medical diagnosis and treatment. Aut
 ## DUCKNet Architecture
 The DUCKNet architecture is a convolutional neural network designed for image segmentation tasks. It consists of an encoder-decoder structure with skip connections to retain spatial information.
 
-![DUCK-Net](https://github.com/RazvanDu/DUCK-Net/raw/main/DUCK-Net.png)
+![image](https://github.com/user-attachments/assets/a1ee1948-cab7-4417-a780-cfc8eef2c6e1)
+
 
 ### Components:
 1. **Encoder:** Sequentially reduces the spatial dimensions of the image while increasing the number of feature maps.
@@ -127,15 +128,15 @@ Here’s a table comparing the four models across key performance metrics:
 
 | Metric                     | **Model 1: 3D MRI Brain Tumor Segmentation** | **Model 2: U-Net** | **Model 3: U-Net + CNN (BRATS)** | **Model 4: DuckNet (U-Net + DenseNet)** |
 |----------------------------|---------------------------------------------|--------------------|-----------------------------------|------------------------------------------|
-| **Accuracy (Train)**       | 99.02%                                      | 99.31%             | 98.67%                           | 99.25%                                   |
-| **Accuracy (Validation)**  | 98.91%                                      | 99.31%             | 98.34%                           | 99.57%-99.58%                            |
-| **Mean IoU**               | 77.16% (Train), 78.25% (Val)                | 84.26%             | N/A                               | N/A                                      |
-| **Dice Coefficient (Train)**| 48.73%                                      | 64.8%              | 35.89%                           | 88.14%                                   |
+| **Accuracy (Train)**       | 99.02%                                      | 99.31%             | 98.67%                           | 99.33%                                   |
+| **Accuracy (Validation)**  | 98.91%                                      | 99.31%             | 98.34%                           | 99.56%                          |
+| **Mean IoU**               | 77.16% (Train), 78.25% (Val)                | 84.26%             | N/A                               | 84.30                                      |
+| **Dice Coefficient (Train)**| 48.73%                                      | 64.8%              | 35.89%                           | 87.50%                                   |
 | **Dice Coefficient (Val)** | 47.03%                                      | 64.8%              | 28.22%                           | 88.72%                                   |
-| **Precision**              | 99.33%                                      | 99.35%             | 60.47%                           | High                                    |
-| **Sensitivity (Recall)**   | 98.64% (Train), 98.56% (Val)                | 99.16%             | 63.97%                           | Moderate to High                         |
-| **Specificity**            | N/A                                         | 99.78%             | 98.74%                           | High                                    |
-| **Validation Loss**        | N/A                                         | 0.0267             | 0.0592                           | 0.0103                                   |
+| **Precision**              | 99.33%                                      | 99.35%             | 60.47%                           | 91.28%                                    |
+| **Sensitivity (Recall)**   | 98.64% (Train), 98.56% (Val)                | 99.16%             | 63.97%                           | 91.72%                        |
+| **Specificity**            | N/A                                         | 99.78%             | 98.74%                           |  99.77%                                   |
+| **Validation Loss**        | N/A                                         | 0.0267             | 0.0592                           | 0.01008                             |
 
 ---
 
