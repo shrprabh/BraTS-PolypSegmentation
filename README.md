@@ -67,7 +67,7 @@ Brain tumors pose significant challenges in medical diagnosis and treatment. Aut
 ## DUCKNet Architecture
 The DUCKNet architecture is a convolutional neural network designed for image segmentation tasks. It consists of an encoder-decoder structure with skip connections to retain spatial information.
 
-![image](https://github.com/user-attachments/assets/a1ee1948-cab7-4417-a780-cfc8eef2c6e1)
+![image](https://github.com/user-attachments/assets/da7c8faa-e2be-4d02-955a-9bec35e25271)
 
 
 ### Components:
@@ -122,6 +122,9 @@ This image presents three performance metrics during deep learning model trainin
 - **Training and Validation Loss  (Center):** The graph shows the model’s error on training and validation datasets. Both decrease over time, indicating effective training. The convergence of the curves suggests the model avoids overfitting and underfitting.
 
 - **Training and Validation Dice Coefficient(Right):** The graph measures the overlap between predicted and ground truth segmentation. It increases over epochs, signifying improved segmentation accuracy. The close alignment of training and validation curves suggests good generalization.
+
+## Updated Performance metric image
+![download](https://github.com/user-attachments/assets/c71153d7-2a24-497c-bf73-d3059342163a)
 
 Overall, these graphs demonstrate the model’s improvement during training, with consistent performance on both datasets.
 Here’s a table comparing the four models across key performance metrics:
